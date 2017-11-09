@@ -10,6 +10,7 @@ class SomeMessage
   attribute :other_attribute
 end
 
+
 some_message = SomeMessage.new
 some_message.some_attribute = 'some value'
 some_message.other_attribute = 'other value'
