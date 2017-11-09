@@ -3,6 +3,7 @@ require 'eventide/postgres'
 require 'securerandom'
 require 'pp'
 
+
 class SomeMessage
   include Messaging::Message
 
