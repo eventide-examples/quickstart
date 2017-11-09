@@ -22,8 +22,8 @@ stream_name = "someStream-#{some_id}"
 # Write Message
 position = Messaging::Postgres::Write.(some_message, stream_name)
 
-# Read Message
-read_message = MessageStore::Postgres::Get.(stream_name, position: position, batch_size: 1).first
+# Read Message Data (Raw)
+read_message_data = MessageStore::Postgres::Get.(stream_name, position: position, batch_size: 1).first
 
 # Print Message
-pp read_message
+pp read_message_data
