@@ -1,6 +1,6 @@
 # Eventide Postgres Quickstart
 
-This quick example demonstrates the basic reading and writing of a message to a stream in the Postgres message store
+This quick example demonstrates the setup of an EventStore project, configuring the message store database connection, and basic reading and writing of a message to a stream in the Postgres message store
 
 ## Software Prerequisites
 
@@ -11,7 +11,7 @@ This quick example demonstrates the basic reading and writing of a message to a 
 
 ## Setup
 
-### Clone this Repository
+### Clone the Quickstart Repository
 
 From the command line, run:
 
