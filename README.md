@@ -85,9 +85,9 @@ With Postgres already running, from the command line, run:
 bundle exec evt-pg-create-db
 ```
 
-Form more background on the Postgres message store database, you can explore the SQL scripts at:
+Form more background on the Postgres message store database, you can explore the SQL scripts that define the database schema at:
 
-https://github.com/eventide-project/message-store-postgres/tree/master/scripts
+https://github.com/eventide-project/message-store-postgres/tree/master/database
 
 ### Test the Database Connection
 
