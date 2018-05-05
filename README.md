@@ -87,7 +87,7 @@ bundle exec evt-pg-create-db
 
 Form more background on the Postgres message store database, you can explore the SQL scripts at:
 
-https://github.com/eventide-project/message-store-postgres/tree/master/database
+https://github.com/eventide-project/message-store-postgres/tree/master/scripts
 
 ### Test the Database Connection
 
@@ -118,7 +118,7 @@ Now that a message has been added to the message store, you can list the content
 From the command line, run:
 
 ```
-bundle exec evt-pg-list-messages
+bundle exec evt-pg-print-messages
 ```
 
 ### Clear the Messages from the Message Store Database
