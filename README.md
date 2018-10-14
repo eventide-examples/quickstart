@@ -91,7 +91,7 @@ https://github.com/eventide-project/message-store-postgres/tree/master/database
 
 ### Test the Database Connection
 
-The quickstart project includes a Ruby file that creates a Session object and executes a SQL command to check the connection.
+The quickstart project includes a Ruby file that creates a Session object and executes an inert SQL command to test the connection.
 
 If the connection is made, the script will print: "Connected to the database"
 
