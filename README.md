@@ -113,7 +113,7 @@ ruby demos/write_and_read.rb
 
 ### List the Messages in the Message Store Database
 
-Now that a message has been added to the message store, you can list the contents of the message store using a command line tool included with the Eventide toolkit.
+Now that a message has been added to the message store, you can list the contents of the message store using a command line tool that is included with the Eventide toolkit.
 
 From the command line, run:
 
