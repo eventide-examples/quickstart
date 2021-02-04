@@ -85,9 +85,9 @@ With Postgres already running, from the command line, run:
 bundle exec mdb-create-db
 ```
 
-For more background on the Postgres message store database, you can explore the SQL scripts that define the database schema at:
+For more information about Ruby executables installed with the `message_store_postgres`, and `message-db` Ruby Gems, see the Eventide docs on the administration tools that are bundled with the gem:
 
-https://github.com/eventide-project/message-store-postgres/tree/master/database
+[http://docs.eventide-project.org/user-guide/message-db/tools.html](http://docs.eventide-project.org/user-guide/message-db/tools.html)
 
 ### Test the Database Connection
 
